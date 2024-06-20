@@ -13,7 +13,7 @@ const Rental = ({title, image, price}) => {
                 <p class="text-gray-400 mr-3 uppercase text-xs">27 Jun - 2 Jul</p>
 
                 <div class="flex items-center">
-                    <p class="text-lg font-semibold text-black cursor-auto my-3">${price}</p>
+                    <p class="text-lg font-semibold text-black cursor-auto my-3">₹{price}</p>
 
                         <p class="text-sm text-gray-600 cursor-auto ml-2">night</p>
                         <Provider apiKey="acc0dbccce8e557db5ebbe6d605aaa" className="">
